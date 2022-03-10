@@ -1,0 +1,165 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 650px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+
+.image {
+margin-top: 10px;
+position: relative;
+top: 0;
+left: 0;
+}
+
+.imag1{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 150px;
+    color: white;
+  }
+  .image3:hover{
+    background-color:hsl(178, 100%, 50%);
+    opacity: 0.7;
+  }
+
+
+.image{
+    /* flex-basis: 32%; */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.image img{
+    width: 100%;
+    display: block;
+}
+
+.image-2 img {
+    width: 100%;
+    transform: translateX(-50%);
+    position: relative;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.equi-content{
+    padding: 20px 13px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+}
+
+h1:hover{
+    color: hsl(178, 100%, 50%);
+    transition: 2s;
+
+}
+
+.para{
+    color: hsl(215, 32%, 27%);
+    font-size: 18px;
+}
+
+
+.eth-major{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth img{
+    padding: 20px 0px;
+
+}
+
+.eth span{
+    padding-left: 5px;
+}
+
+.eth2{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+}
+
+.hr{
+    background: hsl(215, 32%, 27%);
+    width: 100%;
+    height: 2px;
+    color: white;
+    margin: 0;
+}
+
+.last{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.image2{
+margin-top: 20px;
+}
+
+.image2 img{
+    width: 30px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.avatar-content p{
+    color: hsl(215, 51%, 70%);
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.avatar-content-2{
+    color: hsl(0, 0%, 100%);
+}
+
+.avatar-content-2:hover{
+    transition: 2s;
+    color: hsl(178, 100%, 50%);
+}
